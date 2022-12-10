@@ -1,3 +1,11 @@
+footer{
+  padding-bottom: 0 !important;
+}
+.btm-footer{
+  background-color: yellow !important;
+  padding-bottom: 20px;
+  padding-top: 0px !important;
+}
 .footer {
   border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }

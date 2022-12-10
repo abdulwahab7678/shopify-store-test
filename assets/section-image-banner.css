@@ -7,6 +7,8 @@ align-items: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 50rem;
+  align-items: center;
 }
 .home-page-main-banner{
   justify-content: center !important;
@@ -118,10 +120,10 @@ align-items: center;
   .banner--medium:not(.banner--adapt) {
     min-height: 56rem;
   }
-
+/* 
   .banner--large:not(.banner--adapt) {
     min-height: 50rem;
-  }
+  } */
 
   .banner__content.banner__content--top-left {
     align-items: flex-start;
