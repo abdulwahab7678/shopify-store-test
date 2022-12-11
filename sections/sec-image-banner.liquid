@@ -1,0 +1,31 @@
+{{section.settings.banner_image | image_url: width: 1500 | image_tag }}
+<h1>{{section.settings.banner_heading | escape}}</h1>
+
+{% schema %}
+{
+    "name": "Section Image Banner",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "banner_image",
+            "label":"Banner Image"
+        },
+        {
+            "type":"text",
+            "id":"banner_heading",
+            "label": "Banner Heading",
+            "default": "Image banner"
+        }
+    ],
+    "presets": [
+        {
+            "name":"Section Image Banner",
+            "settings": {
+                "banner_heading":"Please type Banner Heading"
+            }
+        }
+    ]
+}
+{% endschema %}
